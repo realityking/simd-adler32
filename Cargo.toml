@@ -26,10 +26,9 @@ path = "bench/variants.rs"
 harness = false
 
 [features]
-default = ["std", "const-generics"]
+default = ["std"]
 std = []
 nightly = []
-const-generics = []
 
 [dev-dependencies]
 rand = { version = "0.8", features = ["small_rng"] }

@@ -42,10 +42,6 @@
 //!
 //! Enables nightly features required for avx512 support.
 //!
-//! * `const-generics` - Enabled by default
-//!
-//! Enables const-generics support allowing for user-defined array hashing by value.  See
-//! [`Adler32Hash`] for details.
 //!
 //! ## Support
 //!
