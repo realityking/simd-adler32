@@ -56,7 +56,7 @@ println!("{}", hash);
 | ✅   | `arm`, `aarch64` | neon    |
 | ✅   | `wasm32`         | simd128 |
 
-**MSRV** `1.36.0`\*\*
+**MSRV** `1.63.0`\*\*
 
 Minimum supported rust version is tested before a new version is published. [**] Feature
 `const-generics` needs to disabled to build on rustc versions `<1.51` which can be done
