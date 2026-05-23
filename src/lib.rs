@@ -96,8 +96,13 @@
 
 #[doc(hidden)]
 pub mod hash;
+
 #[doc(hidden)]
+#[cfg(feature = "_benchmarking")]
 pub mod imp;
+
+#[cfg(not(feature = "_benchmarking"))]
+mod imp;
 
 pub use hash::*;
 use imp::{get_imp, Adler32Imp};

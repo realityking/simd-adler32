@@ -23,12 +23,14 @@ harness = false
 name = "variants"
 path = "bench/variants.rs"
 harness = false
+required-features = ["_benchmarking"]
 
 [features]
 default = ["std", "const-generics"]
 std = []
 nightly = []
 const-generics = []
+_benchmarking = []
 
 [dev-dependencies]
 rand = { version = "0.8", features = ["small_rng"] }
